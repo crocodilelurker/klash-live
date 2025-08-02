@@ -15,5 +15,5 @@ def connectDB():
         print(e)
 client = AsyncIOMotorClient(uri, server_api=ServerApi('1'))
 
-database= client['flowgrid']
-UserCollection = database["Users"]
+database= client['klash']
+UserCollection = database["user"]
