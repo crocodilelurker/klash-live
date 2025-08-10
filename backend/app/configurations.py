@@ -17,3 +17,5 @@ client = AsyncIOMotorClient(uri, server_api=ServerApi('1'))
 
 database= client['klash']
 UserCollection = database["user"]
+GameCollection = database["game"]
+TournamentCollection = database["tournament"]
